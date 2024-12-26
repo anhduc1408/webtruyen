@@ -1,0 +1,76 @@
+.svg_icon_menu{
+    height:80%;
+    width: 70%;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div_svg_menu{
+    height:100%;
+    width: 5%;
+}
+.icon_menu{
+    justify-content: center;
+    align-items: end;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.hide{
+    display:none !important ;
+}
+.menu{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #3333337d;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+}
+.inner_menu{
+    width: 1230px;
+    height: 50vh;
+    position: absolute;
+    border-radius: 10px;
+    transform: translateY(-10px);
+    background-color: white;
+    display: flex;
+    z-index: 200;
+}
+.svg_icon_seemore{
+    height:80%;
+    width: 30%;
+    display: inline-block;  
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.menu_left{
+
+    width: 30%;
+    height: 100%;
+    border-right:2px solid  #3333337d;
+}
+.ulMenu{
+    list-style-type: none;
+    height: 80%;
+    display: grid;
+    grid-template-rows: repeat(8,1fr);
+}
+.pMenu_left{
+    color:#CDCFD0;
+    font-size: x-large  ;
+}
+
+.liMenu{
+    display: block;
+    text-align: left;
+    align-content: center;
+    padding-left: 15px;
+    border-radius: 10px;
+}

@@ -1,0 +1,66 @@
+.functionNavbar{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.icon{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: small;
+    color: rgb(125, 141, 155);
+    cursor: pointer;
+}
+.Notification_icon,.cart_icon,.account_icon{
+    display: inline-block;
+    width: 50%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40%;
+}
+.Notification_icon{
+    background-image: url('../../../public/ico_noti_gray.svg');
+}
+.cart_icon{
+    background-image: url('../../../public/ico_cart_gray.svg');
+}
+.account_icon{
+    background-image: url('../../../public/ico_account_gray.svg');
+}
+.hide{
+    display: none;
+}
+.MenuSign{
+    position: absolute;
+    width: 246px;
+    display: block;
+    z-index: 3;
+    transform: translateY(calc(3vh + 50px));
+    border-radius: 7px;
+    background-color: white;
+    height: 100px;
+}
+.changeH{
+    height: 140px !important;
+}
+.btn1Sign,.btn2Sign{
+    width: 80%;
+    font-size: medium;
+    padding: 7px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.btn1Sign{
+    background-color: red;
+    color: white;
+}

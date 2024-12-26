@@ -1,0 +1,21 @@
+.addProductPopup{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(187, 187, 187, 0.486);
+}
+.innerAddProduct{
+    width: 25vw;
+    height: 60vh;
+    padding: 5vh 5vh;
+    border-radius: 20px;
+    background-color: white;
+}
+.inputProduct input{
+    padding: 10px;
+}

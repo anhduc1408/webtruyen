@@ -1,0 +1,21 @@
+.navbar{
+    width: 1230px;
+    background-color: white;
+    height: 7vh;
+    margin: auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.logo_navbar{
+    display: inline-block;
+    height: 70%;
+}
+.navbar_content{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+}

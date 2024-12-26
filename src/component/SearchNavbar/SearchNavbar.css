@@ -1,0 +1,69 @@
+.searchNavbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:7vh;
+    width: 100%;
+}
+.div_Search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5vh;
+    margin: 1vh 0;
+    border-radius: 7px ;
+    border: 2px solid #a18f91;
+}
+.Search_Navbar{
+    height: 65%;
+    width: 75%;
+    padding-left: 10px;
+    border:none;
+    outline:none;
+}
+.Submit_Search{
+    width: 20%;
+    cursor: pointer;
+    border-radius: 7px ;
+    background-color:#f04e64;
+    border: none;
+    outline: none;
+    height: 95%;
+}
+.suggest_Popup{
+    background-color: white;
+    height: 30vh;
+    top:0;
+    position: absolute;
+    z-index: 999;
+    transform: translateY(14vh);
+    width: 615px;
+    border-radius: 7px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.Items_Suggest{
+    height: 10vh;
+    width: 100%;
+    padding: 0 10px;
+    cursor: pointer;
+    z-index: 100;
+    display: flex;
+    justify-content: start;
+}
+.Items_Suggest img{
+    height: 95%;
+}
+.infor_Items{
+    padding-left: 20px;
+    text-align: left;
+}
+.close_Suggest{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 50;
+    height: 100vh;
+    width: 100vw;
+}

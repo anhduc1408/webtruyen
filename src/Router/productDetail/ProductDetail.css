@@ -1,0 +1,129 @@
+.contentProduct{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgb(235, 235, 235);
+}
+.innerProduct{
+    width: 1230px;
+    margin-top: 3vh;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.productIntro{
+    height: auto;
+    position: absolute;
+    left: 0;
+    box-sizing: border-box;
+    width: 430px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:25px 1% ;
+}
+.decription{
+    
+    height: 300px; /* Chiều cao giới hạn */
+    overflow: hidden; /* Ẩn nội dung thừa */
+    position: relative; /* Để thêm hiệu ứng mờ dần */
+    
+}
+.evaluate{
+    width: 1230px;
+    height: 30vh;
+    padding:15px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius:10px ;
+}
+.pseudo::after {
+    content: ""; /* Tạo lớp phủ */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 200px; 
+    width:100%;
+    background: linear-gradient(transparent, white); /* Hiệu ứng mờ dần */
+    pointer-events: none; /* Cho phép click xuyên qua lớp phủ */
+}
+.productDetailCo{
+    width: 762px;
+}
+.productDetail1{
+    width: 100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding:15px;   
+    background-color: white;
+    margin-bottom:10px ;
+}
+.buttonSeeMore{
+    outline: none;
+    border: none;
+    background-color: white;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: #2489F4;
+    cursor: pointer;
+}
+.imgProduct{
+    width: 50%;
+}
+.table1 td{
+    text-align: left;
+    margin: 10px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.buttonProduct1{
+    width: 47%;
+    border-radius: 5px;
+    color: red;
+    margin: 10px 3% 10px 0;
+    height:4.5vh;
+    font-size: 15px;
+    border: 2px solid red;
+    background-color: white;
+    cursor: pointer;
+}
+.buttonProduct2{
+    width: 47%;
+    font-size: 15px;
+    height:4.5vh;
+    margin: 10px 0 10px 3%;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: 2px solid red;  
+}
+.cart_icon_red{
+    background-image: url(https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/icon-cart.svg);
+    height: 0.9em;
+    width: 0.9em;
+    display: inline-block;
+    object-fit: contain;
+    background-size: contain
+}
+.imgSeeMore{
+    transform: rotateZ(270deg);
+    position: absolute;
+    right: 0px;
+}
+.timeship::-webkit-scrollbar{
+    display: none;
+  }
+  .saddCart{
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 40vw;
+    height: 20vh;
+    background-color: blanchedalmond;
+
+  }

@@ -1,0 +1,34 @@
+.productType{
+    width: 100vw;
+    display: flex;
+    height: 40vh;
+    padding: 2vh 0 0 0;
+    background-color: rgb(235, 235, 235);
+    justify-content: center;
+}
+.img_best_saler{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+.TypeName{
+    font-size: large;
+    color: red;
+    width: calc(100% - 15px);
+    margin-bottom: 10px;
+    padding: 10px 0 5px 15px;
+    border-bottom:2px  solid rgb(77, 76, 76);
+}
+.productDetail{
+    height: 32vh;
+    display: flex;
+    justify-content: space-around;
+}
+.innerProductType{
+    width: 1230px;
+    height: 38vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
